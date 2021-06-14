@@ -46,6 +46,8 @@
     "fbemitter": "^2.1.1",
     "fetch-everywhere": "^1.0.5",
     "moment": "^2.24.0",
+    "mongoose": "^5.12.13",
+    "path": "^0.12.7",
     "querystring": "^0.2.0",
     "react": "^16.13.1",
     "react-device-detect": "^1.14.0",
@@ -58,6 +60,7 @@
     "redux-thunk": "^2.3.0",
     "swiper": "^5.3.6",
     "webpack-assets-manifest": "^3.1.1",
-    "webpack-dev-middleware": "^3.7.2"
+    "webpack-dev-middleware": "^3.7.2",
+    "winston": "^3.3.3"
   }
 }

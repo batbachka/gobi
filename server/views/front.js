@@ -1,5 +1,4 @@
 module.exports = function (initialState, manifest) {
-    console.log(process.env.NODE_ENV)
     return `
     <!doctype html>
     <html lang="en">
