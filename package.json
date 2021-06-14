@@ -1,0 +1,63 @@
+{
+  "name": "gobi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node server/ser",
+    "build": "webpack --progress --color --config ./webpack.config.prod.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "less-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react-hot-loader": "^4.12.20",
+    "style-loader": "^1.2.0",
+    "terser-webpack-plugin": "^2.3.6",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "fbemitter": "^2.1.1",
+    "fetch-everywhere": "^1.0.5",
+    "moment": "^2.24.0",
+    "querystring": "^0.2.0",
+    "react": "^16.13.1",
+    "react-device-detect": "^1.14.0",
+    "react-dom": "^16.13.1",
+    "react-id-swiper": "^3.0.0",
+    "react-redux": "^7.2.0",
+    "react-router-config": "^5.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^5.3.6",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
